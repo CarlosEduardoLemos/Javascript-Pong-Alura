@@ -14,19 +14,25 @@ let yRaquete = 150;
 let raqueteComprimento = 10;
 let raqueteAltura = 90;
 
+//variáveis do oponente
+let xRaqueteOponente = 585;
+let yRaqueteOponente = 150;
+let vel
 
 function setup(){
     createCannnvas(600,400);
 }
 
-function draw(){
-    backgoround(0);
+function draw() {
+    background(0);
     mostraBolinha();
-    MovimentoBolinha();
+    movimentaBolinha();
     verificaColisaoBorda();
-    mostraRaquete();
-    movimentaRaquete();
+    mostraRaquete(xRaquete, yRaquete);
+    movimentaMinhaRaquete();
     verificaColisaoRaquete();
+    colisaoMinhaRaqueteBiblioteca();
+    mostraRaquete(xRaqueteOponente, yRaqueteOponente);
 }
 
 function mostraBolinha(){
@@ -51,6 +57,10 @@ function mostraRaquete(){
     rect(xRaquete, yRaquete, raqueteComprimento, raqueteAltura);
 }
 
+function mostraRaquete(x,y) {
+    rect(x, y, raqueteComprimento, raqueteAltura);
+}
+
 function movimentaRaquete(){
     if (keyIsDown(UP_ARROW)){
         yRaquete -= 10;
@@ -65,3 +75,18 @@ function verificaColisaoRaquete(){
         velocidadeXBolinha *= -1;
     }
 }
+
+function incluiPlacar() {
+    stroke(255);
+    textAlign(CENTER);
+    textSize(16);
+    fill(color(255, 140, 0));
+    rect(150, 10, 40, 20);
+    fill(255);
+    text(meusPontos, 170, 26);
+    fill(color(255, 140, 0));
+    rect(450, 10, 40, 20);
+    fill(255);
+    text(pontosDoOponente, 470, 26);
+}
+
