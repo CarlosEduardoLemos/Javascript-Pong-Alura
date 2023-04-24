@@ -70,6 +70,16 @@ function movimentaRaquete(){
     }
 }
 
+function movimentaRaqueteOponente(){
+    if (keyIsDown(87)){
+        yRaqueteOponente -= 10;
+    }
+    if (keyIsDown(83)){
+        yRaqueteOponente += 10;
+    }
+
+}
+
 function verificaColisaoRaquete(){
     if(xBolinha - raio < xRaquete + raqueteComprimento && yBolinha - raio < yRaquete + raqueteAltura && yBolinha + raio > yRaquete){
         velocidadeXBolinha *= -1;
