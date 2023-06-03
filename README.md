@@ -6,7 +6,7 @@ Este é o README para o projeto Mini-Game Pong, um jogo clássico de Pong desenv
 | -------------  | --- |
 | :sparkles: Nome        | **Mini-Game Pong**
 | :label: Tecnologias | JavaScript, HTML, CSS
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://carloseduardolemos.github.io/Javascript-Pong-Alura/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://raw.githubusercontent.com/CarlosEduardoLemos/Javascript-Pong-Alura/main/imagem/aula5.gif#vitrinedev)
@@ -21,7 +21,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de manipulaç
 
 Os próximos passos para o projeto incluem a adição de recursos adicionais, como a implementação de efeitos sonoros, a melhoria da inteligência artificial para um jogador contra o computador e a adição de diferentes níveis de dificuldade.
 
-Se você é fã de jogos clássicos e deseja relembrar o divertido Pong, experimente o projeto [aqui](https://url-deploy.com.br) e divirta-se jogando contra um amigo ou contra o computador.
+Se você é fã de jogos clássicos e deseja relembrar o divertido Pong, experimente o projeto [aqui](https://carloseduardolemos.github.io/Javascript-Pong-Alura/) e divirta-se jogando contra um amigo ou contra o computador.
 
 ## Contribuição
 
