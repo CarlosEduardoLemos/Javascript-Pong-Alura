@@ -1,33 +1,32 @@
-# Lógica de programação: comece em lógica com o jogo Pong e JavaScript
+# Mini-Game Pong
 
-Este é um curso oferecido pela Alura para ensinar os fundamentos da lógica de programação utilizando o jogo Pong e a linguagem de programação JavaScript.
+Este é o README para o projeto Mini-Game Pong, um jogo clássico de Pong desenvolvido utilizando JavaScript e HTML.
 
-## Descrição do Curso
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Mini-Game Pong**
+| :label: Tecnologias | JavaScript, HTML, CSS
+| :rocket: URL         | https://url-deploy.com.br
 
-O curso é ideal para aqueles que desejam iniciar sua jornada na programação e entender como ela funciona. Você irá aprender os conceitos fundamentais da lógica de programação enquanto desenvolve um jogo clássico.
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/CarlosEduardoLemos/Javascript-Pong-Alura/main/imagem/aula5.gif#vitrinedev)
 
-## Conteúdo do Curso
+## Detalhes do projeto
 
-O curso aborda os seguintes tópicos:
+O Mini-Game Pong é uma recriação do clássico jogo Pong, onde dois jogadores controlam barras para rebater uma bola em um campo de jogo. O objetivo é marcar pontos ao fazer a bola passar pela barra adversária.
 
-- Introdução à lógica de programação
-- Criação do jogo Pong
-- Utilização da linguagem JavaScript
-- Manipulação de elementos HTML com JavaScript
-- Eventos e interações com o usuário
+O jogo foi desenvolvido utilizando JavaScript para a lógica do jogo e manipulação do DOM, e HTML e CSS para a estrutura e estilização do jogo. Os jogadores controlam as barras utilizando as teclas de seta para cima e para baixo do teclado.
 
-## Requisitos
+Durante o desenvolvimento deste projeto, foram aplicados conceitos de manipulação do DOM com JavaScript, como a criação de elementos HTML dinamicamente, a atualização de estilos e a manipulação de eventos do teclado. Também foram utilizadas técnicas de animação para movimentar a bola e as barras.
 
-Não é necessário conhecimento prévio em programação para participar do curso. No entanto, é recomendável ter conhecimento básico em HTML e CSS.
+Os próximos passos para o projeto incluem a adição de recursos adicionais, como a implementação de efeitos sonoros, a melhoria da inteligência artificial para um jogador contra o computador e a adição de diferentes níveis de dificuldade.
 
-## Como utilizar este repositório
+Se você é fã de jogos clássicos e deseja relembrar o divertido Pong, experimente o projeto [aqui](https://url-deploy.com.br) e divirta-se jogando contra um amigo ou contra o computador.
 
-Este repositório contém o código desenvolvido durante o curso. Você pode cloná-lo em sua máquina e utilizar o código como base para seus próprios projetos.
+## Contribuição
 
-## Autor
-
-Este curso foi criado por [Alura](https://www.alura.com.br/).
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue no repositório ou enviar um pull request com suas sugestões e melhorias. Agradeço antecipadamente todas as contribuições e ideias para aprimorar ainda mais o Mini-Game Pong.
 
 ## Licença
 
-Este código é disponibilizado sob a licença [MIT](LICENSE).
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT). Sinta-se à vontade para utilizar o código e adaptá-lo às suas necessidades.
