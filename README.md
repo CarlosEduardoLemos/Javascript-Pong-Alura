@@ -1,6 +1,6 @@
 # Mini-Game Pong
 
-Este é o README para o projeto Mini-Game Pong, um jogo clássico de Pong desenvolvido utilizando JavaScript e HTML.
+O projeto Mini-Game Pong, é um jogo clássico de Pong desenvolvido utilizando JavaScript e HTML.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
